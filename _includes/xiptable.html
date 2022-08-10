@@ -1,0 +1,36 @@
+<style type="text/css">
+  .xiptable .title {
+    width: 67%;
+  }
+
+  .xiptable .author {
+    width: 33%;
+  }
+</style>
+{% for status in site.data.statuses %}
+  {% assign xips = include.xips|where:"status",status|sort:"xip" %}
+  {% assign count = xips|size %}
+  {% if count > 0 %}
+    <h2 id="{{status|slugify}}">{{status}}</h2>
+    <table class="xiptable">
+      <thead>
+        {% if status == "Last Call" %}
+          <tr>
+          <th class="xipnum">Number</th><th class="date">Review ends</th><th class="title">Title</th><th class="author">Author</th></tr>
+        {% else %}
+          <tr><th class="xipnum">Number</th><th class="title">Title</th><th class="author">Author</th></tr>
+        {% endif %}
+      </thead>
+      {% for page in xips %}
+        <tr>
+          <td class="xipnum"><a href="{{page.url|relative_url}}">{{page.xip|xml_escape}}</a></td>
+          {% if status == "Last Call" and page.last-call-deadline != undefined %}
+            <td class="date">{{ page.last-call-deadline | xml_escape }}</td>
+          {% endif %}
+          <td class="title">{{page.title|xml_escape}}</td>
+          <td class="author">{% include authorlist.html authors=page.author %}</td>
+        </tr>
+      {% endfor %}
+    </table>
+  {% endif %}
+{% endfor %}

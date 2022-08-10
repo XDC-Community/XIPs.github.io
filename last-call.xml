@@ -1,0 +1,35 @@
+---
+layout: null
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>XDC Network XIPs - Last Call Review</title>
+    <description>All XIPs which are in the two-week "last call" status, please help review these and provide your feedback!</description>
+    <link>{{ site.url }}</link>
+    <atom:link href="{{ site.url }}/last-call.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
+    {% assign XIPs = site.pages | sort: 'XIP' %}
+    {% for XIP in XIPs %}
+      {% if XIP.status == "Last Call" %}
+      {% capture description %}
+        <p><strong>XIP #{{ XIP.XIP }} - {{XIP.title }}</strong> is in Last Call status. It is authored by {{ XIP.author }} and was originally created {{ XIP.created }}. It is in the {{ XIP.category }} category of type {{ XIP.type }}. Please review and note any changes that should block acceptance.</p>
+        {% if XIP.discussions-to %}
+          <p>The author has requested that discussions happen at the following URL: {{ XIP.discussions-to }}</p>
+        {% else %}
+          <p>Please visit the [xdc-community/XIPs issues to comment](https://github.com/XDC-Community/XIPs.github.io/issues/{{XIP.XIP}}).</p>
+        {% endif %}
+        <hr />
+        {{ XIP.content }}        
+      {% endcapture %}
+      <item>
+        <title>{{ XIP.title | xml_escape }}</title>
+        <description>{{ description | xml_escape }}</description>
+        <pubDate>{{ XIP.created | date_to_rfc822 }}</pubDate>
+        <link>{{ site.url }}/{{ XIP.url }}</link>
+        <guid isPermaLink="true">{{ site.url }}/{{ XIP.url }}</guid>
+      </item>
+      {% endif %}
+    {% endfor %}
+  </channel>
+</rss>

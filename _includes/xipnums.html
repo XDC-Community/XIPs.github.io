@@ -1,0 +1,4 @@
+{% assign xips=include.xips|split:"," %}
+{% for xipnum in xips %}
+  <a href="{{xipnum|strip|prepend:"eip-" }}">{{xipnum|strip}}</a>{% if forloop.last == false %}, {% endif %}
+{% endfor %}

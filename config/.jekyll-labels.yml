@@ -1,0 +1,8 @@
+"type: Core": this?.new?.category == "Core"
+"type: Networking": this?.new?.category == "Networking"
+"type: Interface": this?.new?.category == "Interface"
+"type: XRC": this?.new?.category == "XRC"
+"type: Informational": this?.new?.type == "Informational"
+"type: Meta": this?.new?.type == "Meta"
+"type: XIP1 (Process)": this?.old?.status == "Living" || this?.old?.eip == "<to be assigned>"
+"waiting: XIP number": '!isNaN(this?.new?.xip)'
