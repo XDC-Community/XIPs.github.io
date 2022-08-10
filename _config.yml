@@ -8,19 +8,29 @@
 ####################################################
 
 # Site settings
-title: "XIP Process"
-email: "themeix@gmail.com"
-description: "Doxy is a responsive Jekyll template for your documentation or knowledgebase website"
+title: "XDC Community - XIP Process"
+email: "jon@coracle.us"
+description: "xdc.community is a decentralized, public, open source developer portal created and maintained by a global developer community"
 keywords: "jekyll, minimal jekyll, jekyll theme, responsive jekyll, seo friendly blog, super fast blog, responsive"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://xips.xdc.community/"
 cover_image: "https://static1.squarespace.com/static/61d4c274803cdc2a1dfaa4d2/t/62d1ad2ea195db3805a3fdcf/1657908526321/Logo_XDC_Network.png" # Image will Display in Social Media When share the website
-
+facebook: "https://www.facebook.com"
+twitter: "https://twitter.com/xdc_community"
+instagram: "https://www.instagram.com/xdc_foundation/"
+github: "https://github.com/XDC-Community"
+linkedin: "https://www.linkedin.com/company/xdc-foundation"
+behance: "https://www.behance.com"
+reddit: "https://www.reddit.com/r/xinfin/"
+vimeo: "https://vimeo.com/xdccommunity"
+dribble: "https://www.dribble.com"
+youtube: "https://www.youtube.com/channel/UCXAAtlD-CRraNJKzDTF4pfg"
+discord: "https://discord.gg/QbwbXjfg"
 
 ## Theme Options
-animated_header: ""  #false
+animated_header: "false"  #true 
 twitter_username: xdc-community
-github_username:  walterblueu
+github_username:  xdc-community
 
 
 # Build settings
