@@ -67,7 +67,7 @@ These calls generally result in a "rough consensus" around what XIPs should be i
 
 The following is the standardization process for all XIPs in all tracks:
 
-![XIP Status Diagram](../assets/XIP-1/XIP-process-update.jpg)
+![XIP Status Diagram](/assets/XIP-1/XIP-process-update.jpg)
 
 **Idea** - An idea that is pre-draft. This is not tracked within the XIP Repository.
 
