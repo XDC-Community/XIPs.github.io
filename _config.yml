@@ -35,7 +35,7 @@ github_username:  xdc-community
 
 # Build settings
 markdown: kramdown
-theme: minima
+theme: jekyll-theme-minimal
 highlighter: rouge
 plugins:
   - jekyll-feed
