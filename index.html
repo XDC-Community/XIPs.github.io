@@ -3,7 +3,11 @@ layout: default
 ---
  
     {% include header.html %}
-    {% include slider.html %}
+    {% if site.animated_header == "true" %}
+      {% include animated_header.html %}
+      {% else %}
+      {% include slider.html %}
+    {% endif %}
     {% include topics_area.html %}
     {% include faq_area.html %}
     {% include timeline_area.html %}
