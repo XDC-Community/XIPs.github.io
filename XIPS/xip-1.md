@@ -5,7 +5,6 @@ status: Draft
 type: Meta
 author: Jon McBee <jon@xdc.org>
 created: 2022-08-10
-layout: page
 ---
 
 ## What is an XIP?
