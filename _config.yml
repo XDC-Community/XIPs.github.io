@@ -36,11 +36,19 @@ github_username:  xdc-community
 # Build settings
 markdown: kramdown
 theme: minima
+highlighter: rouge
 plugins:
   - jekyll-feed
   - jekyll-paginate-v2
   - jekyll-archives
   - jekyll-seo-tag  
+kramdown:
+  parse_block_html: false
+  # This is the default, but be explicit as some EIPs depend on it
+  auto_ids: true
+  # This is to ensure more determistic behaviour
+  auto_id_stripping: true
+  syntax_highlighter: rouge
 
 collections:
   team_members:
