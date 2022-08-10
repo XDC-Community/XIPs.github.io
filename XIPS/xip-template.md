@@ -9,7 +9,7 @@ type: <Standards Track, Meta, or Informational>
 category (*only required for Standards Track): <Core, Networking, Interface, or XRC>
 created: <date created on, in ISO 8601 (yyyy-mm-dd) format>
 requires (*optional): <XIP number(s)>
-layout: post
+layout: page
 ---
 
 This is the suggested template for new XIPs.
