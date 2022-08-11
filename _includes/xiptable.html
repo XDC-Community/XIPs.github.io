@@ -8,7 +8,7 @@
   }
 </style>
 {% for status in site.data.statuses %}
-  {% assign xips = include.xips|where:"status",status|sort:"xip" %}
+  <!-- {% assign xips = include.xips|where:"status",status|sort:"xip" %} -->
   {% assign count = xips|size %}
   {% if count > 0 %}
     <h2 id="{{status|slugify}}">{{status}}</h2>
