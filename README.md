@@ -1,6 +1,6 @@
 # XDC Network Improvement Proposals (XIPs)
 
-**Before you initiate a pull request**, please read the [XIP-1](https://XIPs.ethereum.org/XIPS/XIP-1) process document. Ideas should be thoroughly discussed on [Ethereum Research](https://ethresear.ch/t/read-this-before-posting/8) or [Ethereum Magicians](https://ethereum-magicians.org/) first.
+**Before you initiate a pull request**, please read the [XIP-1](https://XIPs.ethereum.org/XIPS/XIP-1) process document. Ideas should be thoroughly discussed on [xdc.dev](https://xdc.dev) first.
 
 This repository tracks ongoing improvements to Ethereum. It contains:
 
