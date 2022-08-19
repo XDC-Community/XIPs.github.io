@@ -1,44 +1,27 @@
 # XDC Network Improvement Proposals (XIPs)
 
-**Before you initiate a pull request**, please read the [XIP-1](https://XIPs.ethereum.org/XIPS/XIP-1) process document. Ideas should be thoroughly discussed on [xdc.dev](https://xdc.dev) first.
+**Before you initiate a pull request**, please read the [XIP-1](https://xips.xdc.community/XIPS/xip-1) process document. Ideas should be thoroughly discussed on [xdc.dev](https://xdc.dev) first.
 
-This repository tracks ongoing improvements to Ethereum. It contains:
+This repository tracks ongoing improvements to the XDC Network. It contains:
 
-- The [XIP status page](https://XIPs.ethereum.org), tracking protocols for Ethereum clients and applications
-- The [process document](https://XIPs.ethereum.org/XIPS/XIP-1) that governs how protocols are published here
+- The [XIP status page](https://xips.xdc.community/), tracking protocols for XDC Network clients and applications
+- The [process document](https://xips.xdc.community/XIPS/xip-1) that governs how protocols are published here
 
-For help *implementing* an XIP, please visit [Ethereum Stack Exchange](https://ethereum.stackexchange.com).
+For help *implementing* an XIP, please visit the [XIP Chat Discord Channel](https://discord.com/channels/1002620393032519790/1006951188886986822).
 
-If you would like to become an XIP Editor, please check [XIP-5069](./XIPS/XIP-5069.md).
+If you would like to become an XIP Editor, please check the [XIP Editor Handbook](https://www.xdc.community/docs/xip-editor-handbook/).
 
 ## Mission
 
-The goal of the XIP project is to document standardized protocols for Ethereum clients and applications and to document them in a high quality and implementable way.
+The goal of the XIP project is to document standardized protocols for XDC Network clients and applications and to document them in a high quality and implementable way.
 
 ## Preferred Citation Format
 
-The canonical URL for a XIP that has achieved draft status at any point is at https://XIPs.ethereum.org/. For example, the canonical URL for XIP-1 is https://XIPs.ethereum.org/XIPS/XIP-1.
+The canonical URL for a XIP that has achieved draft status at any point is at https://xips.xdc.community/. For example, the canonical URL for XIP-1 is https://xips.xdc.community/XIPS/xip-1.
 
-Please consider anything which is not published on https://XIPs.ethereum.org/ as a working paper.
+Please consider anything which is not published on https://xips.xdc.community/ as a working paper.
 
-And please consider anything published at https://XIPs.ethereum.org/ with a status of "draft" as an incomplete draft.
-
-## Automerger
-
-This repository contains an "auto merge" feature to ease the workload for XIP editors. Pull requests to any XIP will be auto-merged if the XIP's authors approve the PR on GitHub. This is handled by the [XIP-Bot](https://github.com/ethereum/XIP-Bot).
-
-## Validation
-
-Pull requests in this repository must pass automated validation checks:
-
-* HTML formatting and broken links are [checked](https://github.com/ethereum/XIPs/blob/master/.travis-ci.sh) using [html-proofer](https://rubygems.org/gems/html-proofer).
-* XIP front matter and formatting are [checked](https://github.com/ethereum/XIPs/blob/master/.github/workflows/auto-merge-bot.yml) using [XIP Validator](https://github.com/ethereum/XIPv).
-
-It is possible to run the XIP validator locally:
-```sh
-cargo install XIPv
-XIPv <INPUT FILE / DIRECTORY>
-```
+And please consider anything published at https://xips.xdc.community/ with a status of "draft" as an incomplete draft.
 
 ## Build the status page locally
 
