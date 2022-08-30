@@ -84,6 +84,7 @@ If this period results in necessary normative changes it will revert the XIP to 
 **Stagnant** - Any XIP in `Draft` or `Review` or `Last Call` if inactive for a period of 6 months or greater is moved to `Stagnant`. An XIP may be resurrected from this state by Authors or XIP Editors through moving it back to `Draft` or it's earlier status. If not resurrected, a proposal may stay forever in this status. 
 
 >*XIP Authors are notified of any algorithmic change to the status of their XIP*
+>
 **Withdrawn** - The XIP Author(s) have withdrawn the proposed XIP. This state has finality and can no longer be resurrected using this XIP number. If the idea is pursued at later date it is considered a new proposal.
 
 **Living** - A special status for XIPs that are designed to be continually updated and not reach a state of finality. This includes most notably XIP-1.
