@@ -207,7 +207,7 @@ Emeritus XIP editors are
 
 
 
-If you would like to become an XIP editor, please check [XIP-????](https://github.com/XDC-Community).
+If you would like to become an XIP editor, please check [the XIP Editor Handbook](https://www.xdc.community/docs/xip-editor-handbook/).
 
 ## XIP Editor Responsibilities
 
