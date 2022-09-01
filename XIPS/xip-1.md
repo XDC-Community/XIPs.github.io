@@ -1,7 +1,7 @@
 ---
 xip: 1
 title: XIP Purpose and Guidelines
-status: Draft
+status: Review
 type: Meta
 author: Jon McBee <jon@xdc.org>
 created: 2022-08-10
