@@ -202,6 +202,7 @@ If you are interested in assuming ownership of an XIP, send a message asking to 
 The current XIP editors are
 
 - Jon McBee (@walterblueu)
+- Fisher Yu (@fishermanymc)
 
 Emeritus XIP editors are 
 
