@@ -2,7 +2,7 @@
 xip: 4
 title: XIP Classification
 author: Mogi TheHurt <mogithehurt@gmail.com>
-status: Review
+status: Draft
 type: Meta
 created: 2022-09-22
 ---
