@@ -1,6 +1,6 @@
 ---
 xip: 2
-title: SHARDS: Dividend Yielding Token Standard 
+title: SHARDS Dividend Yielding Token Standard 
 status: Draft
 type: Standard Track
 category: XRC
