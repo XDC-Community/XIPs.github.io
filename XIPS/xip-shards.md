@@ -57,12 +57,13 @@ All XIPs that introduce backwards incompatibilities must include a section descr
 
 
 ## Reference Implementation
+Github:https://github.com/CoinClubQuincy/XRC-SHARDS
 
 All function within contract can use this line of code at the bottom of their function to forward funds to the **receive()** function to allocate funds.
 ````solidity
     address(this).call{value: msg.value};
 ````
-This contract bllow is an example of a lemonade stand contract that receives 100XDC for a glass of lemonade and divides those funds amongst 10 token holders
+This contract bellow is an example of a lemonade stand contract that receives 100XDC for a glass of lemonade and divides those funds amongst 10 token holders
 
 ````solidity
 contract lemonadeStand is XRC100{
