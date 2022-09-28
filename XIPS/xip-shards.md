@@ -59,9 +59,9 @@ All XIPs that introduce backwards incompatibilities must include a section descr
 ## Reference Implementation
 
 All function within contract can use this line of code at the bottom of their function to forward funds to the **receive()** function to allocate funds.
-
+````solidity
     address(this).call{value: msg.value};
-
+````
 This contract bllow is an example of a lemonade stand contract that receives 100XDC for a glass of lemonade and divides those funds amongst 10 token holders
 
 ````solidity
