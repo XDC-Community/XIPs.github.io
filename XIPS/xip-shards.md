@@ -36,12 +36,12 @@ uint  public totalSupply;
 **View_Account** 
 OPTIONAL - view tokens yield in contract
 
-    function View_Account(uint _token)  external  view  returns(uint);
+    function View_Account(uint _token)public  view  returns(uint);
 
 **Redeem**
 In order to again dividends user MUST select the Redeem function 
 
-    function Redeem()external  returns(bool);
+    function Redeem()public  returns(bool);
 
 
 
