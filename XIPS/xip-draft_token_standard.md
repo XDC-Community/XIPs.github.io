@@ -1,5 +1,5 @@
 ---
-xip: <to be assigned>
+xip: XIP-8
 title: Token Standard
 description: A standard interface for tokens.
 author: l2dy
