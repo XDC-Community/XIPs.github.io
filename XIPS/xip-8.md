@@ -4,7 +4,7 @@ title: Token Standard
 description: A standard interface for tokens.
 author: l2dy
 discussions-to: https://www.xdc.dev/l2dy/xip-process-proposal-token-standard-3ana
-status: Last Call
+status: Final
 type: Standards Track
 category: XRC
 created: 2022-09-23
